@@ -206,6 +206,18 @@ span {
     display: none;
 }
 
+.view-all {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+
+}
+
 /* tablet button end */
 
 /* main section end*/
@@ -260,12 +272,20 @@ footer h2 {
     text-align: center;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+
 }
 
 .upcoming-match .flag {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.upcoming-match .flag img {
+    width: 80px;
+    height: 60px;
 }
 
 .match-details {
@@ -286,7 +306,7 @@ footer h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
     width: 100%;
     font-size: 1.3em;
     background-color: lightblue;
